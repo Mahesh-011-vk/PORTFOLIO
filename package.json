@@ -1,0 +1,11 @@
+{
+  "name": "mahesh-s-portfolio",
+  "version": "1.0.0",
+  "description": "Mahesh S — AI/ML Engineer portfolio. Static site, no build step.",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes serve . -l 3000",
+    "dev": "npx --yes serve . -l 3000"
+  },
+  "license": "UNLICENSED"
+}

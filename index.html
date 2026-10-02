@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Mahesh S | AI/ML Engineer | GenAI Developer</title>
+  <meta name="description"
+    content="AI/ML Engineer specializing in Machine Learning, Deep Learning, Generative AI, Data Science, and intelligent application development.">
+  <meta property="og:title" content="Mahesh S | AI/ML Engineer | GenAI Developer">
+  <meta property="og:description"
+    content="AI/ML Engineer specializing in Machine Learning, Deep Learning, Generative AI, Data Science, and intelligent application development.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='42' fill='none' stroke='%23D8D2C4' stroke-width='6'/%3E%3Ccircle cx='50' cy='50' r='14' fill='%23D8D2C4'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <div id="loader" role="status" aria-live="polite">
+    <div class="loader-core"><span></span><span></span></div>
+    <div class="loader-name mono">MAHESH&nbsp;S</div>
+    <div class="loader-label" id="loaderLabel">INITIALIZING AI SYSTEM</div>
+  </div>
+
+  <div class="resume-modal" id="resumeModal" role="dialog" aria-modal="true" aria-label="Resume preview">
+    <div class="resume-panel">
+      <div class="resume-bar">
+        <span class="mono">MAHESH_S_RESUME.PDF</span>
+        <div class="resume-bar-actions">
+          <a id="resumeDownload" class="resume-icon-btn" download="Mahesh_S_Resume.pdf" title="Download PDF"
+            aria-label="Download resume PDF">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 3v12m0 0l-4-4m4 4l4-4M4 19h16" />
+            </svg>
+          </a>
+          <button id="resumeClose" class="resume-icon-btn" type="button" title="Close"
+            aria-label="Close resume preview">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M6 6l12 12M18 6L6 18" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <iframe id="resumeFrame" title="Mahesh S resume PDF"></iframe>
+    </div>
+  </div>
+
+  <div class="cert-modal" id="certModal" role="dialog" aria-modal="true" aria-label="Certificate preview">
+    <div class="cert-panel">
+      <div class="cert-bar">
+        <span class="mono" id="certModalTitle">CERTIFICATE</span>
+        <div class="resume-bar-actions">
+          <a id="certDownload" class="resume-icon-btn" title="Download image" aria-label="Download certificate image">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 3v12m0 0l-4-4m4 4l4-4M4 19h16" />
+            </svg>
+          </a>
+          <button id="certClose" class="resume-icon-btn" type="button" title="Close"
+            aria-label="Close certificate preview">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M6 6l12 12M18 6L6 18" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="cert-body"><img id="certImage" alt=""></div>
+    </div>
+  </div>
+
+  <div class="scroll-progress-line" id="scrollProgress" aria-hidden="true"></div>
+  <div class="theme-bg-scene" id="themeBgScene" aria-hidden="true">
+    <div class="theme-bg-img" id="themeBgImg"></div>
+    <div class="theme-bg-glow"></div>
+    <div class="theme-bg-overlay"></div>
+  </div>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+  <div class="veil" aria-hidden="true"></div>
+
+  <!-- SLIDING PAGE TRANSITION CURTAIN -->
+  <div id="pageSlideCurtain" class="page-slide-curtain" aria-hidden="true">
+    <div class="curtain-blade"></div>
+    <div class="curtain-sheen"></div>
+  </div>
+
+  <nav aria-label="Primary">
+    <span class="brand">MAHESH.S</span>
+    <button data-target="hero" class="active">Home</button>
+    <button data-target="about">About</button>
+    <button data-target="skills">Skills</button>
+    <button data-target="experience">Experience</button>
+    <button data-target="projects">Projects</button>
+    <button data-target="certifications">Certs</button>
+    <button data-target="contact">Contact</button>
+  </nav>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-portrait" aria-hidden="true" id="heroPortrait"></div>
+      <div class="wrap hero-grid">
+        <div>
+          <div class="hero-kicker mono">AI/ML ENGINEER &nbsp;·&nbsp; GENERATIVE AI &nbsp;·&nbsp; DATA SCIENCE</div>
+          <h1><span class="hero-highlight">Mahesh S</span><br><span class="grad hero-tagline">Building intelligence into
+              real‑world systems.</span></h1>
+          <p class="role">AI/ML Engineer focused on Machine Learning, Deep Learning, Generative AI, Data Science, and
+            intelligent application development.</p>
+          <div class="hero-actions">
+            <button class="btn3d primary" id="btnExplore">Explore my work
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </button>
+            <button class="btn3d" id="btnResume" type="button" aria-haspopup="dialog">View resume
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 3v12m0 0l-4-4m4 4l4-4M4 19h16" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="hero-stage">
+          <div class="hero-photo-wrap">
+            <img src="assets/images/mahesh_hero.jpg" alt="Mahesh S" class="hero-photo" />
+          </div>
+        </div>
+      </div>
+      <div class="scroll-cue"><span>SCROLL</span><span class="line"></span></div>
+      <div class="page-end-seam" data-page="Hero"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="wrap">
+        <div class="eyebrow">ABOUT</div>
+        <div class="about-grid">
+          <div class="identity-frame">
+            <img src="assets/images/mahesh_sketch.jpg" alt="Mahesh S — sketch" class="identity-img" />
+            <div class="tag mono">MAHESH S — AI/ML ENGINEER</div>
+          </div>
+          <div class="about-copy">
+            <h2 style="font-size:clamp(26px,3.6vw,36px); margin-bottom:22px;">AI/ML Engineering &amp; Data Science
+              student, graduated in May 2026.</h2>
+            <p>I build applied machine learning and generative AI systems end to end — from data pipelines and model
+              development to shipped applications people actually use. My background spans a BE in Artificial
+              Intelligence &amp; Machine Learning, hands-on internship work, and a string of independent projects across
+              GenAI, computer vision, and data analytics.</p>
+            <p>I care most about the layer where models meet real interfaces: retrieval-augmented generation, agentic
+              workflows, and applications that stay usable outside a notebook.</p>
+            <div class="about-modules">
+              <div class="tilt-card module">
+                <h4>AI</h4>
+                <p>Applied model development, evaluation, and deployment.</p>
+              </div>
+              <div class="tilt-card module">
+                <h4>Machine Learning</h4>
+                <p>Classical ML and deep learning across TensorFlow / Keras &amp; PyTorch.</p>
+              </div>
+              <div class="tilt-card module">
+                <h4>GenAI</h4>
+                <p>LLMs, RAG, agentic AI with LangChain &amp; LangGraph.</p>
+              </div>
+              <div class="tilt-card module">
+                <h4>Data Science</h4>
+                <p>EDA, feature engineering, and dashboarding with Power BI.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-end-seam" data-page="About"></div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="wrap">
+        <div class="eyebrow">TECHNOLOGY</div>
+        <div class="section-head">
+          <h2>What I build with</h2>
+          <p>A working stack across programming, applied AI/ML, generative AI tooling, cloud infrastructure, and data
+            engineering.</p>
+        </div>
+        <div class="skill-groups" id="skillGroups"></div>
+      </div>
+      <div class="page-end-seam" data-page="Skills"></div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <div class="wrap">
+        <div class="eyebrow">EXPERIENCE</div>
+        <div class="section-head">
+          <h2>Where I've worked</h2>
+          <p>Internship experience across data science and GenAI-driven mobile development.</p>
+        </div>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tilt-card card">
+              <span class="period mono">FEBRUARY 2026 — AUGUST 2026</span>
+              <h3>Beasant Technologies</h3>
+              <span class="org-role">Data Science &amp; AI Intern</span>
+              <ul>
+                <li>Developed and iterated on machine learning models as part of the data science &amp; AI team.</li>
+                <li>Worked across the applied ML lifecycle — from data preparation to model evaluation.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tilt-card card">
+              <span class="period mono">FEBRUARY 2026 — MAY 2026</span>
+              <h3>Mindmatrix</h3>
+              <span class="org-role">Android App Development using GenAI Intern</span>
+              <ul>
+                <li>Built Android application features with generative AI integration.</li>
+                <li>Applied prompt engineering and GenAI tooling within a mobile development workflow.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-end-seam" data-page="Experience"></div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="wrap">
+        <div class="eyebrow">PROJECT LAB</div>
+        <div class="section-head">
+          <h2>Selected projects</h2>
+          <p>Five systems spanning generative AI, mobile applications, IoT, and data analytics. Click any project to
+            open it.</p>
+        </div>
+        <div class="project-list" id="projectList"></div>
+      </div>
+      <div class="page-end-seam" data-page="Projects"></div>
+    </section>
+
+    <!-- ARCHITECTURE -->
+    <section id="architecture">
+      <div class="wrap">
+        <div class="eyebrow">SYSTEM DESIGN</div>
+        <div class="section-head">
+          <h2>How I build AI systems</h2>
+          <p>A typical pipeline I use for GenAI applications, from user input to a grounded, retrieved response.</p>
+        </div>
+        <div class="arch-flow" id="archFlow"></div>
+      </div>
+      <div class="page-end-seam" data-page="Architecture"></div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications">
+      <div class="wrap">
+        <div class="eyebrow">CERTIFICATIONS</div>
+        <div class="section-head">
+          <h2>Certifications</h2>
+          <p>Coursework and credentials supporting my AI/ML and prompt engineering practice.</p>
+        </div>
+        <div class="cert-grid" id="certGrid"></div>
+      </div>
+      <div class="page-end-seam" data-page="Certifications"></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="wrap contact-inner">
+        <canvas id="orb-canvas"></canvas>
+        <h2>Let's build something intelligent.</h2>
+        <p>Open to opportunities in AI/ML, Generative AI, Data Science, and intelligent application development.</p>
+        <div class="contact-actions">
+          <a class="btn3d primary" href="mailto:viratmahesh11@gmail.com">Email
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 6h16v12H4z" />
+              <path d="M4 7l8 6 8-6" />
+            </svg>
+          </a>
+          <a class="btn3d" href="https://linkedin.com/in/mahesh-s-318367203" target="_blank" rel="noopener">LinkedIn
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 17V10M7 7v.01M12 17v-4a2 2 0 014 0v4M12 13v4" />
+            </svg>
+          </a>
+          <a class="btn3d" href="https://github.com/Mahesh-011-vk" target="_blank" rel="noopener">GitHub
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M9 19c-4 1-4-2-6-2m12 4v-3.4c0-.9.3-1.6.8-2.1-2.7-.3-5.6-1.4-5.6-6a4.6 4.6 0 011.2-3.2 4.3 4.3 0 01.1-3.2s1-.3 3.3 1.2a11.3 11.3 0 016 0c2.3-1.5 3.3-1.2 3.3-1.2a4.3 4.3 0 01.1 3.2 4.6 4.6 0 011.2 3.2c0 4.6-2.9 5.7-5.6 6 .5.5.9 1.3.9 2.6V21" />
+            </svg>
+          </a>
+        </div>
+        <div class="contact-direct">
+          <a href="tel:+916362544048">+91 63625 44048</a>
+          <a href="mailto:viratmahesh11@gmail.com">viratmahesh11@gmail.com</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Designed &amp; built by Mahesh S — © 2026</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    /* ── Particle Ring Cursor (Native Cursor Size) + Slow Water Droplet Text ── */
+    (function () {
+      /* 1. Hide native cursor */
+      if (!document.getElementById('cursor-hide-style')) {
+        var s = document.createElement('style');
+        s.id = 'cursor-hide-style';
+        s.textContent = '*, *::before, *::after { cursor: none !important; }';
+        document.head.appendChild(s);
+      }
+
+      /* 2. Micro Particle Ring Canvas (scaled to match ~24-26px native cursor) */
+      var SZ = 32, HF = SZ / 2;
+      var dpr = window.devicePixelRatio || 1;
+      var cv = document.getElementById('particle-cursor-cv');
+      if (!cv) {
+        cv = document.createElement('canvas');
+        cv.id = 'particle-cursor-cv';
+        document.body.appendChild(cv);
+      }
+      cv.width = cv.height = SZ * dpr;
+      cv.style.cssText = 'position:fixed;top:0;left:0;width:' + SZ + 'px;height:' + SZ + 'px;pointer-events:none;z-index:2147483647;transform:translate(-50%,-50%);will-change:transform;opacity:0;transition:opacity 0.2s ease;';
+
+      var cx = cv.getContext('2d');
+      cx.scale(dpr, dpr);
+
+      /* 3. Particle generation matching user reference ring */
+      var N = 520, R = 8.8, SP = 3.6, pts = [];
+      for (var i = 0; i < N; i++) {
+        var a = Math.random() * Math.PI * 2;
+        var d = R + (Math.random() - 0.5) * SP * 2;
+        var dv = Math.abs(d - R) / SP;
+        var br = Math.exp(-dv * dv * 2.2) * (0.35 + Math.random() * 0.65);
+        pts.push({
+          a: a,
+          r: d,
+          da: (Math.random() - 0.5) * 0.015,
+          sz: Math.random() * 0.65 + 0.22,
+          b: br
+        });
+      }
+
+      /* 4. Mouse tracking */
+      var mx = -300, my = -300, tk = 0, active = false;
+      document.addEventListener('mousemove', function (e) {
+        mx = e.clientX;
+        my = e.clientY;
+        cv.style.left = mx + 'px';
+        cv.style.top = my + 'px';
+        if (!active) {
+          active = true;
+          cv.style.opacity = '1';
+        }
+      }, { passive: true });
+
+      document.addEventListener('mouseleave', function () {
+        cv.style.opacity = '0';
+        active = false;
+      });
+
+      /* 5. Render loop */
+      (function loop() {
+        cx.clearRect(0, 0, SZ, SZ);
+        tk += 0.012;
+        for (var i = 0; i < N; i++) {
+          var p = pts[i];
+          p.a += p.da;
+          var x = HF + Math.cos(p.a + tk) * p.r;
+          var y = HF + Math.sin(p.a + tk) * p.r;
+          cx.beginPath();
+          cx.arc(x, y, p.sz, 0, 6.2832);
+          cx.fillStyle = 'rgba(255, 238, 215, ' + p.b.toFixed(3) + ')';
+          cx.fill();
+        }
+        requestAnimationFrame(loop);
+      })();
+
+      /* 6. Text Splitting for Water Droplet Effect */
+      var TARGET_SELS = 'h1, h2, h3, h4, p, a, button, label, .brand, .eyebrow, .hero-kicker, .hero-highlight, .hero-tagline, .chip, .tag, .pod-num, .role, .desc';
+
+      function splitNode(node) {
+        if (node.nodeType === 3) {
+          var text = node.nodeValue;
+          if (!text || !text.trim()) return;
+          var frag = document.createDocumentFragment();
+          var words = text.split(/(\s+)/);
+          words.forEach(function (part) {
+            if (/^\s+$/.test(part)) {
+              frag.appendChild(document.createTextNode(part));
+            } else {
+              var wordSpan = document.createElement('span');
+              wordSpan.className = 'd-word';
+              for (var i = 0; i < part.length; i++) {
+                var ch = document.createElement('span');
+                ch.className = 'd-ch';
+                ch.textContent = part[i];
+                ch.addEventListener('animationend', function () {
+                  this.classList.remove('d-drop');
+                });
+                wordSpan.appendChild(ch);
+              }
+              frag.appendChild(wordSpan);
+            }
+          });
+          node.parentNode.replaceChild(frag, node);
+        } else if (node.nodeType === 1 && !node.classList.contains('d-ch') && !node.classList.contains('d-word') && node.tagName !== 'SCRIPT' && node.tagName !== 'STYLE' && node.tagName !== 'SVG' && node.tagName !== 'CANVAS') {
+          var children = Array.from(node.childNodes);
+          children.forEach(splitNode);
+        }
+      }
+
+      function splitElement(el) {
+        if (!el || el.dataset.dropSplit) return;
+        el.dataset.dropSplit = '1';
+        splitNode(el);
+      }
+
+      function initTextSplitting() {
+        document.querySelectorAll(TARGET_SELS).forEach(splitElement);
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initTextSplitting);
+      } else {
+        initTextSplitting();
+      }
+      setTimeout(initTextSplitting, 400);
+      setTimeout(initTextSplitting, 1200);
+
+      /* 7. Slow Water Droplet Ripple Propagation */
+      function triggerRipple(centerSpan) {
+        if (!centerSpan || !centerSpan.classList.contains('d-ch')) return;
+        var word = centerSpan.closest('.d-word');
+        if (!word) {
+          if (!centerSpan.classList.contains('d-drop')) {
+            centerSpan.classList.add('d-drop');
+          }
+          return;
+        }
+
+        var allInWord = Array.from(word.querySelectorAll('.d-ch'));
+        var centerIdx = allInWord.indexOf(centerSpan);
+        if (centerIdx === -1) return;
+
+        allInWord.forEach(function (sp, idx) {
+          var dist = Math.abs(idx - centerIdx);
+          if (dist > 4) return;
+          var delay = dist * 75;
+          clearTimeout(sp._dt);
+          sp._dt = setTimeout(function () {
+            if (!sp.classList.contains('d-drop')) {
+              sp.classList.add('d-drop');
+            }
+          }, delay);
+        });
+      }
+
+      /* 8. Mousemove trigger for water droplets */
+      var ticking = false;
+      document.addEventListener('mousemove', function (e) {
+        if (ticking) return;
+        ticking = true;
+        requestAnimationFrame(function () {
+          ticking = false;
+          var hit = document.elementFromPoint(e.clientX, e.clientY);
+          if (!hit) return;
+
+          var ch = hit.closest('.d-ch');
+          if (ch) {
+            triggerRipple(ch);
+          } else {
+            var textEl = hit.closest('.d-word') || hit.closest(TARGET_SELS);
+            if (textEl) {
+              if (!textEl.dataset.dropSplit) splitElement(textEl);
+              var chars = textEl.querySelectorAll('.d-ch');
+              var closest = null;
+              var minDist = 22;
+              for (var i = 0; i < chars.length; i++) {
+                var r = chars[i].getBoundingClientRect();
+                var cx = r.left + r.width / 2;
+                var cy = r.top + r.height / 2;
+                var dist = Math.hypot(e.clientX - cx, e.clientY - cy);
+                if (dist < minDist) {
+                  minDist = dist;
+                  closest = chars[i];
+                }
+              }
+              if (closest) {
+                triggerRipple(closest);
+              }
+            }
+          }
+        });
+      }, { passive: true });
+    })();
+  </script>
+</body>
+
+</html>
