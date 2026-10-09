@@ -50,10 +50,10 @@ Website: https://portfolio-steel-eight-19.vercel.app/
 
 📫 Connect
 
-- Portfolio: https://portfolio-steel-eight-19.vercel.app/
-- GitHub: Add your GitHub profile URL here.
-- LinkedIn: Add your LinkedIn profile URL here.
-- Email: Add your professional email address here.
+- Portfolio: https://portfolio-steel-eight-19.vercel.app
+- GitHub: https://github.com/Mahesh-011-vk.
+- LinkedIn: https://www.linkedin.com/in/mahesh-s-318367203.
+- Email: viratmahesh11@gmail.com.
 
 ---
 
