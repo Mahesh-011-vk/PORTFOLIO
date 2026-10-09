@@ -1,86 +1,62 @@
-# Mahesh S — AI/ML Engineer & GenAI Developer Portfolio
+# Mahesh S | AI/ML Engineer | GenAI Developer
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Three.js](https://img.shields.io/badge/Three.js-r128-black?logo=three.js)](https://threejs.org/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![CSS3](https://img.shields.io/badge/CSS3-3D%20Glass-1572B6?logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+<p align="center">
+  <a href="https://portfolio-steel-eight-19.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Live%20Website-00D4FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+  </a>
+  <a href="https://github.com/">
+    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" alt="GitHub"/>
+  </a>
+</p>About Me
 
-> A modern, 3D interactive portfolio website showcasing machine learning systems, generative AI architectures, RAG pipelines, and full-stack AI applications. Built with vanilla HTML, modern CSS, JavaScript, and Three.js — no framework or heavy build pipeline required.
+Welcome to my personal portfolio! I'm Mahesh S., an aspiring AI/ML Engineer and Generative AI Developer passionate about building intelligent applications and practical AI-powered solutions.
 
----
+My interests include Machine Learning, Deep Learning, Generative AI, Large Language Models, AI Agents, and full-stack application development. I enjoy exploring emerging technologies and transforming ideas into useful, user-focused applications.
 
-## ✨ Features
+🌐 Live Portfolio
 
-- **Dynamic 3D Cosmic Background**: Real-time particle field with interactive mouse parallax and gentle cosmic drift built with Three.js.
-- **3D Dark Burgundy Beveled Surfaces**: Custom specular top highlights, inner bevel lighting, and elevation shadows across all modules and cards.
-- **Interactive Architecture Pipeline**: Visual breakdown of full-stack AI system orchestration (User → App → API → Inference → RAG/LLM → Vector DB → Result).
-- **Fast Sliding Transitions**: Seamless section-to-section navigation with custom curtain sliding animations.
-- **In-App Resume & Certificate Viewers**: Native modal dialogs with embedded PDF and high-resolution certificate lightbox previews.
-- **Zero Build Step**: Pure static architecture that can be hosted instantly on GitHub Pages, Vercel, Netlify, or any static web server.
+Explore my portfolio to learn more about my technical skills, projects, experience, and professional journey.
 
----
+Website: https://portfolio-steel-eight-19.vercel.app/
 
-## 🛠️ Tech Stack
+🚀 Areas of Interest
 
-- **Frontend**: HTML5, Vanilla CSS3 (3D Glassmorphism & custom design system), JavaScript (ES6+)
-- **3D Graphics & Motion**: Three.js (r128 CDN)
-- **Typography**: Space Grotesk, JetBrains Mono, Syne, Inter
-- **Hosting / Deployment**: GitHub Pages / Static Hosting
+- Artificial Intelligence and Machine Learning
+- Generative AI and Large Language Models
+- Retrieval-Augmented Generation (RAG)
+- AI Agents and Intelligent Automation
+- Natural Language Processing
+- Computer Vision and Deep Learning
+- Full-Stack Development
+- Data Analytics and Visualization
 
----
+💻 Technical Skills
 
-## 📁 Repository Structure
+- Programming: Python, JavaScript, TypeScript, SQL
+- AI/ML: Machine Learning, Deep Learning, Scikit-learn, TensorFlow, PyTorch
+- Generative AI: LLMs, RAG, Prompt Engineering, AI Agents
+- Web Development: HTML, CSS, React.js, Next.js
+- Backend Development: Node.js, Express.js, REST APIs
+- Databases: SQL, MongoDB
+- Tools: Git, GitHub, VS Code, Docker, Vercel
 
-```
-.
-├── index.html              # Main semantic HTML structure & sections
-├── css/
-│   └── styles.css          # Design system, 3D burgundy theme, animations & responsive styles
-├── js/
-│   └── main.js             # Three.js scene, modal handlers, timeline & dynamic rendering
-├── assets/
-│   ├── resume/
-│   │   └── Mahesh_S_Resume.pdf  # Up-to-date resume PDF
-│   ├── certs/                   # Certificate images (AWS, Anthropic, ChaiCode, Reliance)
-│   └── images/                  # Project covers, hero portraits, and background graphics
-├── package.json            # Local dev scripts
-├── .gitignore              # Ignored files & temp directories
-├── LICENSE                 # MIT License
-└── README.md
-```
+🎯 Goals
 
----
+- Build practical AI and Generative AI applications.
+- Develop scalable, reliable machine learning solutions.
+- Explore advanced LLM architectures and agentic workflows.
+- Contribute to meaningful projects and collaborate with developers.
+- Continuously improve my technical and problem-solving skills.
 
-## 🚀 Getting Started
+📫 Connect
 
-Since this is a lightweight static web app, no compilation or dependencies installation is necessary.
-
-### Option 1: Using `npm` (Local Dev Server)
-
-```bash
-npm start
-```
-*Runs a local server at `http://localhost:3000` via `serve`.*
-
-### Option 2: Using Python
-
-```bash
-python3 -m http.server 3000
-```
-
-### Option 3: Direct Preview
-Open `index.html` via Live Server in your favorite editor (Antigravity IDE, VS Code, etc.).
+- Portfolio: https://portfolio-steel-eight-19.vercel.app/
+- GitHub: Add your GitHub profile URL here.
+- LinkedIn: Add your LinkedIn profile URL here.
+- Email: Add your professional email address here.
 
 ---
 
-## 📬 Contact & Connect
-
-- **Portfolio**: [Mahesh S Portfolio](https://github.com/Mahesh-011-vk/PORTFOLIO)
-- **Email**: [viratmahesh11@gmail.com](mailto:viratmahesh11@gmail.com)
-- **GitHub**: [@Mahesh-011-vk](https://github.com/Mahesh-011-vk)
-
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
+<p align="center">
+  <b>Building intelligent solutions with AI, creativity, and code.</b>
+</p>
