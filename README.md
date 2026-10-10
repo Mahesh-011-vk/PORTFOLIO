@@ -1,62 +1,98 @@
-# Mahesh S | AI/ML Engineer | GenAI Developer
+# Hi, I'm Mahesh S 👋
 
-<p align="center">
-  <a href="https://portfolio-steel-eight-19.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-Live%20Website-00D4FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
-  </a>
-  <a href="https://github.com/">
-    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" alt="GitHub"/>
-  </a>
-</p>About Me
+### AI/ML Engineer | Generative AI | Software Developer
 
-Welcome to my personal portfolio! I'm Mahesh S., an aspiring AI/ML Engineer and Generative AI Developer passionate about building intelligent applications and practical AI-powered solutions.
+I'm an Artificial Intelligence and Machine Learning graduate passionate about building intelligent, scalable, and real-world applications using Machine Learning, Deep Learning, Generative AI, and modern software technologies.
 
-My interests include Machine Learning, Deep Learning, Generative AI, Large Language Models, AI Agents, and full-stack application development. I enjoy exploring emerging technologies and transforming ideas into useful, user-focused applications.
-
-🌐 Live Portfolio
-
-Explore my portfolio to learn more about my technical skills, projects, experience, and professional journey.
-
-Website: https://portfolio-steel-eight-19.vercel.app/
-
-🚀 Areas of Interest
-
-- Artificial Intelligence and Machine Learning
-- Generative AI and Large Language Models
-- Retrieval-Augmented Generation (RAG)
-- AI Agents and Intelligent Automation
-- Natural Language Processing
-- Computer Vision and Deep Learning
-- Full-Stack Development
-- Data Analytics and Visualization
-
-💻 Technical Skills
-
-- Programming: Python, JavaScript, TypeScript, SQL
-- AI/ML: Machine Learning, Deep Learning, Scikit-learn, TensorFlow, PyTorch
-- Generative AI: LLMs, RAG, Prompt Engineering, AI Agents
-- Web Development: HTML, CSS, React.js, Next.js
-- Backend Development: Node.js, Express.js, REST APIs
-- Databases: SQL, MongoDB
-- Tools: Git, GitHub, VS Code, Docker, Vercel
-
-🎯 Goals
-
-- Build practical AI and Generative AI applications.
-- Develop scalable, reliable machine learning solutions.
-- Explore advanced LLM architectures and agentic workflows.
-- Contribute to meaningful projects and collaborate with developers.
-- Continuously improve my technical and problem-solving skills.
-
-📫 Connect
-
-- Portfolio: https://portfolio-steel-eight-19.vercel.app
-- GitHub: https://github.com/Mahesh-011-vk.
-- LinkedIn: https://www.linkedin.com/in/mahesh-s-318367203.
-- Email: viratmahesh11@gmail.com.
+🌐 **Portfolio:** [Visit My Portfolio](https://portfolio-steel-eight-19.vercel.app/)
+💻 **GitHub:** [Mahesh-011-vk](https://github.com/Mahesh-011-vk)
+💼 **LinkedIn:** [Connect with Me](https://www.linkedin.com/in/mahesh-s-318367203/)
 
 ---
 
-<p align="center">
-  <b>Building intelligent solutions with AI, creativity, and code.</b>
-</p>
+## 🚀 About Me
+
+* 🎓 BE graduate in Artificial Intelligence & Machine Learning.
+* 🤖 Interested in Machine Learning, Deep Learning, LLMs, RAG, and Generative AI.
+* 💻 Exploring full-stack development and AI-powered software applications.
+* 🛠️ Building practical projects that solve real-world problems.
+* 📈 Interested in AI Engineering, Software Engineering, and Forward Deployed Engineering.
+* 🌱 Continuously learning, experimenting, and turning ideas into working products.
+
+---
+
+## 🧠 Technical Skills
+
+**Programming Languages**
+
+* Python, JavaScript, TypeScript, SQL, Kotlin
+
+**AI & Machine Learning**
+
+* Machine Learning, Deep Learning, Scikit-learn, TensorFlow
+* Natural Language Processing (NLP), Generative AI, Large Language Models (LLMs)
+* Retrieval-Augmented Generation (RAG), Model Evaluation
+
+**Development**
+
+* HTML, CSS, React
+* REST APIs, Flask, Android Development
+
+**Data & Visualization**
+
+* Pandas, NumPy, Excel, Power BI, Data Visualization
+
+**Tools & Platforms**
+
+* Git, GitHub, VS Code, Jupyter Notebook, Android Studio
+
+---
+
+## 🔥 Featured Projects
+
+### 🤖 [PROMPT-FORGE](https://github.com/Mahesh-011-vk/PROMPT-FORGE)
+
+An AI-focused project exploring prompt engineering and intelligent AI workflows.
+
+### 🎙️ [ULTRON-VA](https://github.com/Mahesh-011-vk/ULTRON-VA)
+
+A voice assistant project designed to bring together voice interaction, automation, and an interactive user experience.
+
+### 🛡️ [TruLens AI-Powered Reality Checker](https://github.com/Mahesh-011-vk/trulens-ai-powered-reality-checker)
+
+An AI-powered fake-news detection project combining web verification, multi-source fact-checking, and an interactive dashboard.
+
+### 💪 [EchoFitAI](https://github.com/Mahesh-011-vk/EchoFitAI)
+
+An Android fitness application concept focused on personalized workouts, fitness tracking, and AI-assisted wellness experiences.
+
+---
+
+## 🎯 Current Focus
+
+* Building production-oriented AI applications.
+* Developing LLM-powered tools and RAG systems.
+* Strengthening software engineering and full-stack development skills.
+* Creating intelligent products that combine AI, data, and user-focused design.
+
+---
+
+## 📊 GitHub Statistics
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mahesh-011-vk\&show_icons=true\&theme=tokyonight\&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mahesh-011-vk\&layout=compact\&theme=tokyonight\&hide_border=true)
+
+---
+
+## 🤝 Let's Connect
+
+I'm always interested in connecting with developers, AI enthusiasts, recruiters, and people building innovative technology.
+
+* 🌐 [Portfolio](https://portfolio-steel-eight-19.vercel.app/)
+* 💻 [GitHub](https://github.com/Mahesh-011-vk)
+* 💼 [LinkedIn](https://www.linkedin.com/in/mahesh-s-318367203/)
+
+---
+
+⭐ *Building intelligent solutions. Learning continuously. Turning ideas into reality.*
