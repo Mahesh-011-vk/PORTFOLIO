@@ -189,7 +189,7 @@ I'm always open to connecting with developers, AI enthusiasts, recruiters, and t
   </a>
 </p>
 
-**Email:** Add your professional email address here.
+Email: viratmahesh11@gmail.com
 
 ---
 
