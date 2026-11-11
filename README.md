@@ -20,7 +20,7 @@
 
 ## 👋 About Me
 
-Welcome to my personal portfolio! I'm **Mahesh S**, an Artificial Intelligence and Machine Learning graduate aspiring to become an AI/ML Engineer and Generative AI Developer.
+Welcome to my personal portfolio! I'm **Mahesh S**, an Artificial Intelligence and Machine Learning graduate aspiring to become an AI/ML Engineer and Generative AI Developer
 
 I'm passionate about designing and developing intelligent applications that combine machine learning, modern software engineering, and user-focused design to solve real-world problems.
 
